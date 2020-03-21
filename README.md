@@ -201,6 +201,8 @@ Whilst allowing the node to synchronise and depending on your device firewall se
     sudo ufw allow 6543
 
     sudo ufw allow 3306
+    
+    sudo ufw allow 666
 
 Let the node synchronise with the network by downloading the Beam blockchain. This may take a while, depending on your connection speed. Once fully synchronised, you will see your Beam node collect the most up to date block height. Compare the node height with https://explorer.beam.mw/ and ensure it matches before continuing. The % will also show 100% in the node printout.
 
@@ -366,7 +368,7 @@ peer address
 
 port to start the local api server on
 
-    api_port=8887
+    api_port=666
 
 owner key from wallet steps
 
