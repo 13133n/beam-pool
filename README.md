@@ -67,6 +67,8 @@ Go into the beam-pool folder and make sure it's up to date.
     cd beam-pool
 
     npm update
+    
+    npm install
 
 Now you need to configure your MYSQL Db's
 
