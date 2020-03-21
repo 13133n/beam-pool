@@ -328,7 +328,7 @@ amend const=api and the MYSQL pieces
         const coinid = 2423;
         const coin_symbol = 'BEAM';
         const confirmations = 240;
-        const api = 'http://127.0.0.1:8887';
+        const api = 'http://127.0.0.1:666';
         module.exports = async function() {
         const connection = await mysql.createConnection({
         host: '127.0.0.1',
