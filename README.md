@@ -237,6 +237,7 @@ Now in your MYSQL third party software (sequelpro or similar) create your tables
     CREATE TABLE `blocks` (
      `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
      `coinid` int(11) DEFAULT NULL,
+     `reward` float DEFAULT NULL,
      `time` int(18) DEFAULT NULL,
      `userid` int(11) DEFAULT NULL,
      `workerid` int(11) DEFAULT NULL,
@@ -247,7 +248,7 @@ Now in your MYSQL third party software (sequelpro or similar) create your tables
      `difficulty` float DEFAULT NULL,
      `blockhash` varchar(64) DEFAULT NULL,
      `category` varchar(32) DEFAULT NULL,
-     `reward` float DEFAULT NULL,
+     `jobid` int(11) DEFAULT NULL,
     PRIMARY KEY (`id`)
     ) ENGINE=InnoDB AUTO_INCREMENT=24 DEFAULT CHARSET=utf8mb4;
 
