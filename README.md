@@ -373,7 +373,7 @@ port to start the local api server on
 
     api_port=666
 
-owner key from wallet steps
+owner key from node setup steps
 
     key_owner=YOUR_OWNER_KEY_FROM_NODE_CONFIGURATION
 
