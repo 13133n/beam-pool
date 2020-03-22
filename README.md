@@ -266,13 +266,6 @@ Now in your MYSQL third party software (sequelpro or similar) create your tables
     PRIMARY KEY (`id`)
     ) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8mb4;
 
-password for the wallet
-pass=YOURPASSWORD
-address of node
-        node_addr=127.0.0.1:10127
-path to wallet file
-        wallet_path=../beam-node/wallet.db
-
 EDIT YOUR CONFIGURATION FILES
 LOCATION: beam-pool/config.json
 should be amended in the REDIS sections
