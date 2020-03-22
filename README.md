@@ -270,13 +270,13 @@ Create a new folder for the API
 
     mkdir beam-api
 
-Navigate into that folder and install the Beam Explorer API. From the link at https://github.com/BeamMW/beam/releases find and identify the most recent version of the Beam Wallet API
+Navigate into that folder and install the Beam Explorer API. From the link at https://github.com/BeamMW/beam/releases find and identify the most recent version of the Beam EXPLORER NODE API
 
     wget https://github.com/BeamMW/beam/releases/download/APIVERSION.tar.gz
 
     tar -xvf https://github.com/BeamMW/beam/releases/download/APIVERSION.tar.gz
 
-edit the file wallet-api.cfg using nano and add the following flags
+edit the file explorer-node.cfg using nano and add the following flags
 
 password for the wallet
         pass=YOURPASSWORD
