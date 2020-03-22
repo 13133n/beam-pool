@@ -163,11 +163,11 @@ Next you will need two keys to configure them the node. Please run the following
 
 Take the keys and put in the beam-node.cfg on the lines
 
-    key_mine=
+    owner_key=
 
 &
 
-    key_owner=
+    miner_key=
 
 Uncomment the line by removing the single # signs on each line. Now edit #password for keys in beam-node.cfg so that it matches #password for the wallet in beam-wallet.cfg - this is the password that you created previously.
 
